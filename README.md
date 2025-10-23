@@ -4,7 +4,6 @@
 This Power BI report provides a **comprehensive financial analysis for an educational institution**, covering revenue, expenses, and profit across different academic years.  
 It enables interactive comparison between periods, detailed tracking of student payments, and cost breakdowns by account and payment type.
 
-The project demonstrates strong data modeling, DAX calculations, and clean BI design with a consistent blue-white theme inspired by Greek academic branding.
 
 ---
 
@@ -51,10 +50,3 @@ The project demonstrates strong data modeling, DAX calculations, and clean BI de
 - Consistent branding and navigation buttons
 
 ---
-
-
-Sales Value LY =
-CALCULATE ( [Sales Value], DATEADD ( 'Calendar'[Date], -1, YEAR ) )
-
-Sales vs LY % =
-DIVIDE ( [Sales Value] - [Sales Value LY], ABS ( [Sales Value LY] ) )
