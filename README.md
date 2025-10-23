@@ -4,6 +4,14 @@
 This Power BI report provides a **comprehensive financial analysis for an educational institution**, covering revenue, expenses, and profit across different academic years.  
 It enables interactive comparison between periods, detailed tracking of student payments, and cost breakdowns by account and payment type.
 
+---
+
+
+## 📘 Full List of DAX Measures
+You can view all the DAX calculations used in this report — including KPIs, LY (Last Year) measures, and YoY % differences — in the separate file below:
+
+👉 [View DAX_Measures.md](DAX_Measures.md)
+
 
 ---
 
