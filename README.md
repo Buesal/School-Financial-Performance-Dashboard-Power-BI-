@@ -52,12 +52,6 @@ The project demonstrates strong data modeling, DAX calculations, and clean BI de
 
 ---
 
-## 🧮 DAX Highlights
-Some of the core calculations include:
-```DAX
-Sales Value = SUM ( 'Financial Data'[Revenue] )
-Sales Cost  = SUM ( 'Financial Data'[Expense] )
-Profit      = [Sales Value] - [Sales Cost]
 
 Sales Value LY =
 CALCULATE ( [Sales Value], DATEADD ( 'Calendar'[Date], -1, YEAR ) )
